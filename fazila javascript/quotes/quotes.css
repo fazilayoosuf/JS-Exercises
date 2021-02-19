@@ -1,0 +1,38 @@
+body{
+    min-height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.container{
+    background: palevioletred;
+    padding:10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    flex:0 0 80%;
+}
+#quoteBtn{
+    color:white;
+    background: purple;
+    padding:7px;
+    font-size: 20px;
+    border-radius:3px;
+    cursor:pointer;
+}
+
+#quoteBtn:hover{
+    background: orange;
+}
+blockquote{
+    background: white;
+    margin:1.5rem;
+    padding: 20px;
+    color:purple;
+}
+
+#quoteAuthor{
+    color:purple;
+}

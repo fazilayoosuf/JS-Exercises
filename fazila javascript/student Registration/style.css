@@ -1,0 +1,43 @@
+h1 {
+   color:red;
+   text-align: center;
+   
+   }
+
+  #title{
+  background-color:  rgb(156, 67, 197);
+   border:2px solid red;
+}
+
+form{
+    margin: 100px;
+}
+
+#studentList {
+
+    margin-bottom: 342px;
+
+}
+
+td th {
+    padding:10px;
+}
+tr:nth-child(even),th{
+    background-color: rgb(156, 67, 197);
+}
+
+.submitBtn,.resetBtn{
+    background: #eee;
+    padding: 6px 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    margin: 15px 0 10px;
+    outline: none;
+
+}
+
+.submitBtn:hover{
+    background: green;
+}

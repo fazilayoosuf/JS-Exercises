@@ -1,0 +1,36 @@
+body{
+    min-height: 100vh;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+}
+
+.container{
+    background:palegreen;
+    text-align:center;
+    flex:0 0 50%;
+    padding: 10px;
+}
+
+#inputMsg{
+
+    padding:5px;
+    font-size:20px;
+    border-radius: 10px;
+    
+
+}
+
+#sendBtn{
+    color:white;
+    background: blue;
+    font-size:25px;
+    margin:15px;
+    padding:5px;
+
+}
+
+#sendBtn:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}

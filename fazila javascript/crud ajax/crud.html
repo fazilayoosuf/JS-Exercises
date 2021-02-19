@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud using ajax</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+<style>
+
+    form {
+        margin-top:40px;
+        margin-left:70px;
+
+    }
+    table {
+        margin-top:40px;
+        margin-left:70px;
+    }
+</style>
+<body>
+    
+    <form  id="form">
+        <div class="form-group">
+        <label for="firstname">First Name</label>
+        <input type="text" id="fname">
+        </div>
+        <div class="form-group">
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lname">
+    </div>
+        <button type="button" class="btn btn-info" onclick="updateUser()">Update User</button>
+        <button type="button" class="btn btn-info" onclick="createUser()">create User</button>
+       
+    </form>
+    <table border='1'class="table-primary" >
+        <thead>
+            <th>firstname</th>
+            <th>lastname</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </thead>
+        <tbody id="tablevalue"></tbody>
+    </table>
+    
+</body>
+
+<script src="crud.js"></script>
+</html>

@@ -1,0 +1,14 @@
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background: black;
+}
+
+#clock{
+    font-family:sans-serif;
+    color:green;
+    font-size:35px;
+
+}

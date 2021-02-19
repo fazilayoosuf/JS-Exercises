@@ -1,0 +1,1 @@
+{"max":"multiply.js","min":"a.js"}
